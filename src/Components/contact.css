@@ -1,0 +1,127 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* set icons color */
+i {
+    color: #A52A2A; /* Reddish brown color */
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+.extra-div h2,
+.service-div h2 {
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+.background-images {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(165,42,42,0.3), rgba(165,42,42,0.3)), url('https://img.collegepravesh.com/2017/02/BMSIT-Bangalore.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.header:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right, #A52A2A 0%, #CD5C5C 50%, #F08080 100%);
+}
+
+/* for navbar */
+.navbar:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right, #A52A2A 0%, #CD5C5C 50%, #F08080 100%);
+}
+
+.nav-item a {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    transform: translateY(5px);
+}
+
+.contact-section{
+    top:50%;
+    color: black;
+}
+
+.row{
+    border-color: #A52A2A;
+}
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #93081d;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #068a27;
+    box-shadow: 0 0 5px rgba(179, 63, 63, 0.5);
+}
+
+.form-button .btn-primary {
+    background-color: #068a27;
+    border-color: #068a27;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.form-button .btn-primary:hover {
+    background-color: #06710d;
+    border-color: #07710f;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+textarea.form-control {
+    resize: none;
+}
